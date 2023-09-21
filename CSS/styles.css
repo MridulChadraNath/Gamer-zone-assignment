@@ -1,4 +1,5 @@
 * {
+    border: 0px;
     margin: 0px;
     padding: 0px;
     font-family: 'Dancing Script', cursive;
@@ -24,7 +25,7 @@
     font-weight: 600;
     height: 50px;
     margin-top: 45px;
-    margin-bottom: 255px;
+    margin-bottom: 20px;
 }
 
 nav {
@@ -87,15 +88,19 @@ nav {
 /* Banner sectio started here */
 .banner-section {
     height: 700px;
-    width: auto;
-    margin: 160px 10px 148px 200px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding:0px 0px;
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+}
 
+.banner-content {
+    padding-left: 240px;
 }
 
 .banner-img {
+
     height: 700px;
     padding-right: 240px;
 }
@@ -109,6 +114,7 @@ nav {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-top: 20px;
+
 }
 
 .banner-content h4 {
@@ -126,4 +132,51 @@ nav {
     font-weight: 500;
     margin-top: 15px;
     padding-top: 17px;
+}
+
+
+
+/* We are gamer section */
+.we-are-gamer-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 50px 240px;
+}
+
+.we-are-gamer-content {
+    text-align: right;
+}
+
+.we-are-gamer-content h3 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.we-are-gamer-content h6 {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: right;
+    background-color: transparent;
+}
+
+.we-are-gamer-content h5 {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: right;
+    color: black;
+
+    background-color: transparent;
+
 }
